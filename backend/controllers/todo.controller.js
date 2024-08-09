@@ -1,6 +1,6 @@
 import {z} from 'zod';
-import { createTodoSchema, updateTodoSchema } from '../types';
-import { Todo } from '../models/todo.model';
+import { createTodoSchema, updateTodoSchema } from '../types.js';
+import { Todo } from '../models/todo.model.js';
 
 export const addNewTodoController = async (req , res) => {
     try {

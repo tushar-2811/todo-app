@@ -1,6 +1,6 @@
 import { Router } from "express";
-import v1Router from "./v1/v1.index";
-import v2Router from "./v2/v2.index";
+import v1Router from "./v1/v1.index.js";
+import v2Router from "./v2/v2.index.js";
 
 const apiRouter = Router();
 
