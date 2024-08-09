@@ -1,7 +1,7 @@
 import {z} from 'zod';
 
 export const createTodoSchema = z.object({
-    title : z.string().min(3).max(5),
+    title : z.string().min(3),
     description : z.string().min(1)
 })
 
